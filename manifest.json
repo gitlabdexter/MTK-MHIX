@@ -1,0 +1,19 @@
+{
+  "name": "CV CREATION DX VPN",
+  "short_name": "DX VPN",
+  "description": "A futuristic, full-featured DX VPN web application with an admin panel and user interface, designed for excellent aesthetics and functionality.",
+  "icons": [
+    {
+      "src": "vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#0a0a1a",
+  "background_color": "#0a0a1a",
+  "orientation": "portrait"
+}

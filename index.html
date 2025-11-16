@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DX VPN Admin & User App</title>
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#0a0a1a">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'dx-dark': '#0a0a1a',
+              'dx-dark-2': '#1a1a2e',
+              'dx-dark-3': '#2a2a4f',
+              'dx-light': '#f0f0f5',
+              'dx-light-2': '#ffffff',
+              'dx-light-3': '#e0e0e5',
+              'dx-accent': '#00ffff',
+              'dx-accent-2': '#ff00ff',
+              'dx-gray': '#888899',
+            },
+            boxShadow: {
+              'dx-glow': '0 0 15px rgba(0, 255, 255, 0.5), 0 0 5px rgba(255, 0, 255, 0.3)',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-dx-light dark:bg-dx-dark">
+    <div id="root"></div>
+  </body>
+</html>

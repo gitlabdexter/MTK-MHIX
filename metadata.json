@@ -1,0 +1,5 @@
+{
+  "name": "CV CREATION",
+  "description": "A futuristic, full-featured DX VPN web application with an admin panel and user interface, designed for excellent aesthetics and functionality. It includes dark/light mode, persistent state using localStorage, and responsive design.",
+  "requestFramePermissions": []
+}
